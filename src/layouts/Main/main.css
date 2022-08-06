@@ -1,0 +1,46 @@
+/* @media (min-width:1200px){
+    .mainContent {
+        margin-left: -213px !important;
+    }
+}
+@media (min-width:300px) and (max-width: 1200px){
+    .mainContent {
+        margin-left: 80px !important;
+    }
+} */
+/* .makeStyles-shiftContent-2 {
+    padding-left: 70px !important;
+} */
+
+.bg-white{
+    background-color: #fff !important;
+}
+.bg-lightblue{
+    background-color: #e6f0f9 !important;
+}
+button{
+    cursor: pointer;
+}
+.ant-layout{
+    background-color: #fff !important;
+}
+.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+    background-color: transparent !important;
+    border: none !important;
+}
+.ant-input-group-addon{
+    background-color: #606972 !important;
+}
+.ant-select-single .ant-select-selection-item{
+    color: #fff !important;
+}
+.ant-select-arrow{
+    color: white !important;
+}
+.ant-card-head{
+    background-color: #f6f6f6 !important;
+}
+label{
+    margin-top: 0.75rem;
+    display: block;
+}

@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #f7f7f7 !important;
+}
+
+.swal2-content,
+.swal2-title,
+.swal2-confirm,
+.swal2-cancel {
+  font-family: "Tahoma", sans-serif;
+}
+.swal2-container {
+  z-index: 99999 !important;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+#root {
+  height: 100%;
+}
