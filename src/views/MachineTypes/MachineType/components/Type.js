@@ -55,8 +55,8 @@ const Type = ({ fields, maintitle, id, value = null, removeType = undefined }) =
     }, [typeObj]);
 
     return (
-        <Col className="gutter-row" span={4} key={fields[0]?.name}>
-            <Card size="small"  title={maintitle} style={{ width: '100%' }} >
+        <Col className="gutter-row" xs={24} md={4} key={fields[0]?.name}>
+            <Card size="small" title={maintitle} style={{ width: '100%' }} >
                 {inputList}
             </Card>
         </Col>

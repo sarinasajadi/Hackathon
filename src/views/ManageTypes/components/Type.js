@@ -66,7 +66,7 @@ const Type = ({ id, value = null, removeType = undefined, addNewTypeToMenu = und
         localStorage.setItem(`type${id}`, JSON.stringify(typeObj))
     }, [typeObj]);
     return (
-        <Col className="gutter-row" span={4} key={id}>
+        <Col className="gutter-row" xs={24} md={4} key={id}>
             <Card size="small"  title={typeObj.type || 'New Type'} style={{ width: '100%' }} extra={<button onClick={() => removeType(id)}><CloseCircleOutlined /></button>}>
                 <label key='typeLabel'>Object type</label>
                 <Input name='type' key='type' value={typeObj.type} onChange={onChange} />
